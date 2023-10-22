@@ -1,0 +1,19 @@
+{
+  "name": "theme-switcher-sass",
+  "version": "1.0.0",
+  "description": "A mini UI project demonstrating theme switching using Sass and JS. Icon and fonts used are from Google fonts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "sass --watch --no-source-map ./src/style.scss ./dist/style.css",
+    "watch:html": "--watch ./dist/index.html",
+    "watch": "npm run watch:sass & npm run watch:html",
+    "git": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.4"
+  }
+}
